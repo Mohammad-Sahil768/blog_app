@@ -8,11 +8,14 @@ function Intro() {
         <img  src={blogger_image} alt="" />
       </div>
       <div className="right">
-        <span className="quote">
-          Your Blog is your <span style={{ fontFamily: 'cursive', color:'#007AC3'}}> brand</span><br/> 
-          It is a  reflection of <span className="main-quote"> you</span>, your <span className="main-quote">thoughts </span> & <span className="main-quote">values</span> <br/>
-
-        </span>
+        <h2 className="quote display-5 " style={{color:"white"}}>
+          Publish your passions, your way
+        </h2>
+        <br />
+        <h3 className="quote " style={{color:"white"}}>
+        Create a unique and beautiful blog easily.
+        </h3>
+        <br />
         <span className='quote-content' style={{
           fontSize:'larger',
           fontFamily:'sans-serif',

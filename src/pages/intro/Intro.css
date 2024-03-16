@@ -8,6 +8,7 @@
     align-items: center;
     flex-wrap: wrap;       
 }
+
 .left{
     /* border: 1px solid black; */
     width: 50%;
@@ -21,10 +22,9 @@
     text-align: center  ;
 }
 .quote{
-    font-size: xx-large;
-    font-weight: bolder;
-
+    text-shadow: 2px 2px #ff0000;
 }
+
 .main-quote{
     color: #E7CB48;
     font-family: cursive;

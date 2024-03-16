@@ -20,7 +20,7 @@ function Login() {
         console.log("Result :", res);
         if(res.data.success) {
             localStorage.setItem('token',res.data.token) 
-            navigate('/Home')
+            navigate('/home')
         }
         setError(res.data.message)
     })

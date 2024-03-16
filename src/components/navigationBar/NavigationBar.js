@@ -111,12 +111,12 @@ function NavigationBar() {
           {isUserLoggedin&&<NavLink to={'/addBlog'} className="add-blog menu-item">
             <AiOutlineThunderbolt className='icon1'/>
             <AiFillThunderbolt className='icon2'/>
-            add Blog
+            Add Blog
           </NavLink>}
           {isUserLoggedin&&<NavLink to={'/myBlogs'} className="my-blogs menu-item">
             <IoCloudOutline className='icon1'/>
             <IoCloudSharp className='icon2'/>
-            my Blogs
+            My Blogs
           </NavLink>}
           
         </div>}

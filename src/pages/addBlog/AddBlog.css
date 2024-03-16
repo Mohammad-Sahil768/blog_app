@@ -3,7 +3,7 @@
     height: 90vh;
     text-align: center;
     border: 1px dashed black;
-    background-color: #c0e3a3;
+    /* background-color: #c0e3a3; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,6 +13,7 @@
     height: 90vh;
     width: 768px;
     overflow: auto;
+    
 }
 
 .blogAdderForm{
@@ -22,9 +23,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+
 }
 .blogInputBox{
     width: 100%;
+    
 }
 .blogInputBox .content{
     width: 90%;
@@ -36,11 +40,13 @@
     border: none;
     box-shadow: 2px 2px 2px  silver,  -2px -2px 2px silver,
                 -2px 2px 2px silver,  2px -2px 2px silver;
+                background-color: #c0e3a3;
 }
 .seletedTags{
     border: 1px solid gold;
     width: 90%;
     height: 10vh;
+    background-color: #c0e3a3;
 }
 .seletedTags textarea{
     width: 100%;
@@ -52,10 +58,12 @@
     border: none;
     box-shadow: 2px 2px 2px  silver,  -2px -2px 2px silver,
     -2px 2px 2px silver,  2px -2px 2px silver;
+    background-color: #c0e3a3;
 }
 .seletedTags.err textarea{
     border:1px solid red;
     border-radius: 10px;
+    background-color: #c0e3a3;
     box-shadow: inset 1px 1px 2px  red, inset -1px -1px 2px red,
                 inset -1px 1px 2px red, inset 1px -1px 2px red;
 }
@@ -66,6 +74,7 @@
 }
 .tags select{
     /* padding: 10px 0; */
+    background-color: #c0e3a3;
     height: 15vh ;
     width: 100%;
     font-size: medium;

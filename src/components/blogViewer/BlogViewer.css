@@ -4,14 +4,15 @@
   border-radius: 10px;
   box-shadow: -1px -1px 1px silver,1px 1px 1px silver,
               -1px 1px 1px silver, 1px -1px 1px silver;
-  background-color: white;
+  background-color: #8EE4AF;
 }
+
 .blog-header{
   padding: 5px 10px;
   border: 1px solid silver;
   border-radius: 10px 10px 0px 0px;
   text-align: start;
-  background-color: rgba(128, 128, 128, 0.356);
+  background-color: #EDF5E1;
 }
 .blog-header p span{
   font-size: larger;

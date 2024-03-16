@@ -3,7 +3,7 @@
     padding: 5px;
     overflow: auto;
     border: 1px solid black;
-    background-color: #c0e3a3;
+    /* background-color: #c0e3a3; */
 }
 .personal-details{
     height: 60%;

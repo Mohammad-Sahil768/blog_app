@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Profile.css'
-import male_profile from '../../images/male_profile.png'
+import male_profile from '../../images/male_profile.gif'
 //import female_profile from '../../images/female_profile.png'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
@@ -66,7 +66,7 @@ function Profile() {
           > Logout</button>
         </div>
       </div>
-      <div className="blogging-details">
+      {/* <div className="blogging-details">
         <p className='blogging-details-title'>Blogging History</p>
         <div className="tags-frecquencies">
           {blogCatogeries.map(({ tag, frequency }) => (
@@ -76,7 +76,7 @@ function Profile() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

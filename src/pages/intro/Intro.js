@@ -1,6 +1,6 @@
 import React from 'react'
 import './Intro.css'
-import blogger_image from  '../../images/blogger_image.jpg'
+import blogger_image from '../../images/blogger_image.jpg'
 function Intro() {
   return (
     <div className='Intro'>
